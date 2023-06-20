@@ -1,3 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <pthread.h>
+#include "crypt.h"
+
+
 char alphabet[27]="abcdefghijklmnopqrstuvwxyza";
 //the last a is for breaking the code when it's finished
 // ONLY WORK IF ITS NOT A TO Z  shouldnt matter
