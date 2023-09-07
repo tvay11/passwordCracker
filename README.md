@@ -20,3 +20,16 @@ To compile the code, run:
 gcc -o crack crack.c -lcrypt -lpthread
 
 ```
+
+## Run the program with three arguments:
+
+    The number of threads you want to use.
+    The size of the key to crack.
+    The target password hash.
+  ```bash
+  ./crack <number_of_threads> <key_size> <target_hash>
+  ```
+Example
+  ```bash
+./crack 4 2 "cdfnIXMyMCpPg"
+  ```
